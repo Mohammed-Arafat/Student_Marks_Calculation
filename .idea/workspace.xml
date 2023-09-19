@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3261f6ed-a83b-4af8-93bc-6e6302213159" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student_Marks_Calculation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student_information.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student_information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student_information.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student_information.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student_information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student_information.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +38,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH": "189",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "263",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "351",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "G:/programing/IIUC/JAVA/Student_Marks_Calculation",
-    "onboarding.tips.debug.path": "G:/programing/IIUC/JAVA/Student_Marks_Calculation/src/Main.java"
+    "onboarding.tips.debug.path": "G:/programing/IIUC/JAVA/Student_Marks_Calculation/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

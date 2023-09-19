@@ -1,6 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.event.ComponentAdapter;
+import java.awt.event.ComponentEvent;
 
 public class Student_information {
     private JTextField TxtOfNameOfStudent;
@@ -18,6 +20,7 @@ public class Student_information {
     private JPanel Main;
     private JButton clearButton;
     private JButton exitButton;
+    private JTextArea result_summary;
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Student_information");
@@ -44,14 +47,41 @@ public class Student_information {
             avg = (total / 7);
             TxtOfTotal.setText(String.valueOf(total));
             TxtOfAverage.setText(String.valueOf(avg));
+            String sc;
             if (avg>50)
             {
                 TxtOfGrade.setText("Pass");
+                sc = "\n\n\n\tCongratulations!!!\n\tYou are passed!!!!\n";
             }
             else
             {
                 TxtOfGrade.setText("Fail");
+                sc = "\n\n\n\tSorry...\n\tYou are failed....\n";
             }
+            String sm = TxtOfNameOfStudent.getText(),s1 = TxtOfMarks1.getText(),s2 = TxtOfMarks2.getText(),s3 =
+                    TxtOfMarks3.getText(),s4 = TxtOfMarks4.getText(),s5 = TxtOfMarks5.getText(),s6 =
+                    TxtOfMarks6.getText(),s7 = TxtOfMarks7.getText();
+            result_summary.setText("\n\n\tName:- "+sm+"\n\n"+"\tMarks 1:- "+s1+"\n\n"+"\tMarks 2:- "+s2+"\n\n"+
+                    "\tMarks 3:- "+s3+"\n\n"+
+                    "\tMarks 4:- "+s4+"\n\n"+"\tMarks 5:- "+s5+"\n\n"+"\tMarks 6:- "+s6+"\n\n"+
+                    "\tMarks 7:- "+s7+"\n\n"+sc);
+            /*
+            result_summary.setText("Marks 1:- "+s1+"\n");
+            result_summary.setText("Marks 2:- "+s2+"\n");
+            result_summary.setText("Marks 3:- "+s3+"\n");
+            result_summary.setText("Marks 4:- "+s4+"\n");
+            result_summary.setText("Marks 5:- "+s5+"\n");
+            result_summary.setText("Marks 6:- "+s6+"\n");
+            result_summary.setText("Marks 7:- "+s7+"\n");
+
+            if (avg>50)
+            {
+                result_summary.setText("\nCongratulations!!!\nYou are passed!!!!\n");
+            }
+            else
+            {
+                result_summary.setText("\nSorry...\nYou are failed....\n");
+            }*/
         }
     });
         clearButton.addActionListener(new ActionListener() {
@@ -68,6 +98,7 @@ public class Student_information {
                 TxtOfTotal.setText("");
                 TxtOfAverage.setText("");
                 TxtOfGrade.setText("");
+                result_summary.setText("");
             }
         });
         exitButton.addActionListener(new ActionListener() {
@@ -76,5 +107,8 @@ public class Student_information {
                 System.exit(0);
             }
         });
+
+
     }
+
 }
